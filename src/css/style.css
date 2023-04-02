@@ -1,0 +1,176 @@
+.score-box .wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 700px;
+  height: 150px;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: -2px 2px 8px 2px rgba(2, 0, 36, 0.4);
+}
+.score-box .wrapper .game-name {
+  text-align: start;
+  margin-left: 30px;
+  line-height: 1.2;
+  color: #dfecf3;
+  font-family: "Bebas Neue", cursive;
+  font-size: 34px;
+  text-shadow: -4px 2px 2px rgba(2, 0, 36, 0.5);
+}
+.score-box .wrapper .first-score-table {
+  position: relative;
+  box-sizing: border-box;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, rgba(0, 248, 255, 0.8) 6%, #dfecf3 70%);
+  margin-right: 30px;
+  height: 118px;
+  width: 105px;
+  border-radius: 18px;
+  padding: 10px 0 24px 0;
+  box-shadow: -3px 2px 8px 2px rgba(2, 0, 36, 0.4);
+}
+.score-box .wrapper .first-score-table .sticker-x2 {
+  position: absolute;
+  top: 35px;
+  left: -38px;
+}
+.score-box .wrapper .first-score-table .sticker-x2::before {
+  content: "X2";
+  top: 27px;
+  left: 30px;
+  z-index: 2;
+  position: absolute;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+}
+.score-box .wrapper .first-score-table .sticker-x2 svg {
+  transform: rotate(-30deg);
+  width: 75px;
+  height: 75px;
+}
+.score-box .wrapper .first-score-table .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+  margin: 0 auto;
+  width: 60%;
+  height: 27%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 1px 1px rgba(2, 0, 36, 0.5) inset;
+  background-color: #f8fbfd;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgba(2, 153, 52, 0.9);
+  text-shadow: -2px 1px 1px rgba(2, 0, 36, 0.1);
+  z-index: 100;
+}
+.score-box .wrapper .first-score-table .score {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  color: #4a494e;
+  z-index: 100;
+}
+.score-box .wrapper .first-score-table:before {
+  content: url(../../icons/thumb-up.svg);
+  position: absolute;
+  left: 12px;
+  top: 45px;
+  width: 80%;
+  opacity: 25%;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+}
+.score-box .wrapper .first-score-table.active:before {
+  content: url(../../icons/thumb-up.svg);
+  position: absolute;
+  left: 12px;
+  top: 45px;
+  width: 80%;
+  opacity: 80%;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+}
+.score-box .wrapper .second-score-table {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at top, rgba(255, 141, 0, 0.9) 8%, #dfecf3 70%);
+  margin-right: 30px;
+  height: 118px;
+  width: 105px;
+  border-radius: 18px;
+  padding: 10px 0 24px 0;
+  box-shadow: -3px 2px 8px 2px rgba(2, 0, 36, 0.4);
+}
+.score-box .wrapper .second-score-table .sticker-x2 {
+  position: absolute;
+  top: 35px;
+  left: -38px;
+}
+.score-box .wrapper .second-score-table .sticker-x2::before {
+  content: "X2";
+  top: 27px;
+  left: 30px;
+  z-index: 2;
+  position: absolute;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+}
+.score-box .wrapper .second-score-table .sticker-x2 svg {
+  transform: rotate(-30deg);
+  width: 75px;
+  height: 75px;
+}
+.score-box .wrapper .second-score-table .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+  margin: 0 auto;
+  width: 60%;
+  height: 27%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 1px 1px rgba(2, 0, 36, 0.5) inset;
+  background-color: #f8fbfd;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgba(203, 19, 19, 0.7);
+  text-shadow: -1px 1px 1px rgba(2, 0, 36, 0.1);
+  z-index: 100;
+}
+.score-box .wrapper .second-score-table .score {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  color: #4a494e;
+  z-index: 100;
+}
+.score-box .wrapper .second-score-table:before {
+  content: url(../../icons/thumb-down.svg);
+  position: absolute;
+  left: 10px;
+  top: 28px;
+  width: 80%;
+  opacity: 25%;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+}
+.score-box .wrapper .second-score-table.active:before {
+  content: url(../../icons/thumb-down.svg);
+  position: absolute;
+  left: 10px;
+  top: 28px;
+  width: 80%;
+  opacity: 80%;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+}/*# sourceMappingURL=style.css.map */

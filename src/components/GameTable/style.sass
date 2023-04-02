@@ -1,0 +1,88 @@
+.game-table
+  position: relative
+  width: 370px
+  height: 370px
+  background-size: 100%
+  background-image: url(../../icons/bg-triangle.svg)
+  background-position: top
+  background-repeat: no-repeat
+  .a-line
+    position: relative
+    margin: 0 auto
+    z-index: 0
+    transform: translateY(1px)
+    height: 15px
+    svg
+      display: none
+      position: absolute
+      top: -50%
+      left: 0%
+      height: 32px
+      width: 32px
+  .c-line
+    position: absolute
+    z-index: 0
+    height: 322px
+    width: 15px
+    top: 0%
+    left: 25%
+    transform: rotate(-29.3deg)
+    svg
+      display: none
+      position: absolute
+      top: 90%
+      left: -50%
+      height: 32px
+      width: 32px
+      transform: rotate(90deg)
+  .b-line
+    position: absolute
+    z-index: 0
+    height: 322px
+    width: 15px
+    top: 0%
+    right: 25%
+    transform: rotate(29.3deg)
+    svg
+      display: none
+      position: absolute
+      top: 0%
+      left: -50%
+      height: 32px
+      width: 32px
+      transform: rotate(90deg)
+  .item
+    display: flex
+    box-sizing: content-box
+    justify-content: center
+    align-items: center
+    position: absolute
+    width: 100px
+    height: 100px
+    background-color: #dfecf3
+    border-radius: 100%
+    border: double 20px transparent
+    cursor: pointer
+    filter: brightness(30%)
+  .rock
+    left: -1px
+    transform: translate(83%, 25%) rotate(-45deg)
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e9c31b,#f3dc75)
+    background-origin: border-box
+    background-clip: padding-box, border-box
+    box-shadow: 0 8px rgb(211, 150, 15) , 0 6px rgb(113 113 113 / 42%) inset
+  .paper
+    left: 313px
+    transform: translate(-141%, 25%) rotate(-45deg)
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #03c48a,#33e6b0)
+    background-origin: border-box
+    background-clip: padding-box, border-box
+    box-shadow: 0 8px rgb(12, 125, 98) , 0 6px rgb(113 113 113 / 42%) inset
+  .scissors
+    left: 149px
+    top: 258px
+    transform: translate(-24%, -149%) rotate(-45deg)
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f38ae2,#fcaeef)
+    background-origin: border-box
+    background-clip: padding-box, border-box
+    box-shadow: 0 8px rgb(180, 90, 174) , 0 6px rgb(113 113 113 / 42%) inset

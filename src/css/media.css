@@ -1,0 +1,283 @@
+@media (max-width: 768px) {
+  body .main-wrapper .score-box .wrapper {
+    margin-top: 25px;
+    width: 550px;
+  }
+  body .main-wrapper .results-table {
+    height: 90px;
+    font-size: 55px;
+    margin-top: 25px;
+  }
+  body .main-wrapper .rules-settings {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 576px) {
+  body .main-wrapper .score-box .wrapper {
+    margin-top: 25px;
+    width: 320px;
+    height: 125px;
+  }
+  body .main-wrapper .score-box .wrapper .game-name {
+    margin-left: 15px;
+    font-size: 26px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table {
+    height: 100px;
+    width: 80px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .title {
+    font-size: 13px;
+    padding-top: 9%;
+    height: 29%;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .score {
+    font-size: 53px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table {
+    height: 100px;
+    width: 80px;
+    margin-right: 10px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .title {
+    font-size: 13px;
+    padding-top: 9%;
+    height: 29%;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .score {
+    font-size: 53px;
+  }
+  body .main-wrapper .results-table {
+    margin-top: 25px;
+    height: 55px;
+    font-size: 35px;
+  }
+  body .main-wrapper .game-table {
+    width: 250px;
+    height: 250px;
+  }
+  body .main-wrapper .game-table .a-line {
+    height: 10px;
+  }
+  body .main-wrapper .game-table .a-line svg {
+    height: 22px;
+    width: 22px;
+  }
+  body .main-wrapper .game-table .b-line {
+    height: 225px;
+    width: 10px;
+    right: 26%;
+  }
+  body .main-wrapper .game-table .b-line svg {
+    height: 22px;
+    width: 22px;
+  }
+  body .main-wrapper .game-table .c-line {
+    height: 225px;
+    width: 10px;
+    left: 26%;
+  }
+  body .main-wrapper .game-table .c-line svg {
+    height: 22px;
+    width: 22px;
+  }
+  body .main-wrapper .game-table .item {
+    width: 65px;
+    height: 65px;
+    border: double 13px transparent;
+  }
+  body .main-wrapper .game-table .item svg {
+    transform: scale(0.64);
+  }
+  body .main-wrapper .game-table .rock {
+    box-shadow: 0 6px rgb(211, 150, 15), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 5px;
+    top: 11px;
+  }
+  body .main-wrapper .game-table .paper {
+    box-shadow: 0 6px rgb(12, 125, 98), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 209px;
+    top: 11px;
+  }
+  body .main-wrapper .game-table .scissors {
+    box-shadow: 0 6px rgb(180, 90, 174), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 103px;
+    top: 169px;
+  }
+  body .main-wrapper .rules-settings {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 320px;
+  }
+  body .main-wrapper .rules-settings .accordion {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  body .main-wrapper .rules-settings .accordion .card {
+    width: 320px;
+    padding: 3px 0px 3px 0px;
+  }
+  body .main-wrapper .rules-settings .accordion .card button {
+    font-size: 12px;
+    padding: 9px 10px 9px 10px;
+  }
+}
+@media (max-width: 320px) {
+  body .main-wrapper .score-box .wrapper {
+    width: 300px;
+    height: 108px;
+    margin-top: 20px;
+  }
+  body .main-wrapper .score-box .wrapper .game-name {
+    margin-left: 15px;
+    line-height: 1.1;
+    font-size: 25px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table {
+    height: 89px;
+    width: 70px;
+    margin-right: 28px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .sticker-x2 {
+    top: 42px;
+    left: -32px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .sticker-x2::before {
+    top: 19px;
+    left: 22px;
+    font-size: 17px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .sticker-x2 svg {
+    width: 55px;
+    height: 55px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .title {
+    width: 70%;
+    height: 37%;
+    font-size: 12px;
+    padding-top: 11%;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table .score {
+    font-size: 45px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table:before {
+    left: 8px;
+    top: 35px;
+  }
+  body .main-wrapper .score-box .wrapper .first-score-table.active:before {
+    left: 8px;
+    top: 35px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table {
+    height: 89px;
+    width: 70px;
+    margin-right: 15px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .sticker-x2 {
+    top: 42px;
+    left: -32px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .sticker-x2::before {
+    top: 19px;
+    left: 22px;
+    font-size: 17px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .sticker-x2 svg {
+    width: 55px;
+    height: 55px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .title {
+    width: 70%;
+    height: 37%;
+    font-size: 12px;
+    padding-top: 11%;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table .score {
+    font-size: 45px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table:before {
+    left: 8px;
+    top: 28px;
+  }
+  body .main-wrapper .score-box .wrapper .second-score-table.active:before {
+    left: 8px;
+    top: 28px;
+  }
+  body .main-wrapper .results-table {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 32px;
+  }
+  body .main-wrapper .game-table {
+    width: 230px;
+    height: 230px;
+  }
+  body .main-wrapper .game-table .a-line svg {
+    height: 20px;
+    width: 20px;
+  }
+  body .main-wrapper .game-table .b-line {
+    height: 210px;
+  }
+  body .main-wrapper .game-table .b-line svg {
+    height: 20px;
+    width: 20px;
+  }
+  body .main-wrapper .game-table .c-line {
+    height: 210px;
+  }
+  body .main-wrapper .game-table .c-line svg {
+    height: 20px;
+    width: 20px;
+  }
+  body .main-wrapper .game-table .item {
+    width: 60px;
+    height: 60px;
+    border: double 11px transparent;
+  }
+  body .main-wrapper .game-table .item svg {
+    transform: scale(0.65);
+  }
+  body .main-wrapper .game-table .rock {
+    box-shadow: 0 5px rgb(211, 150, 15), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 7px;
+    top: 10px;
+  }
+  body .main-wrapper .game-table .paper {
+    box-shadow: 0 5px rgb(12, 125, 98), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 191px;
+    top: 9px;
+  }
+  body .main-wrapper .game-table .scissors {
+    box-shadow: 0 5px rgb(180, 90, 174), 0 4px rgba(113, 113, 113, 0.42) inset;
+    left: 95px;
+    top: 152px;
+  }
+  body .main-wrapper .rules-settings {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 300px;
+  }
+  body .main-wrapper .rules-settings .accordion {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  body .main-wrapper .rules-settings .accordion .card {
+    width: 300px;
+    padding: 3px 1px 3px 1px;
+  }
+  body .main-wrapper .rules-settings .accordion .card svg {
+    height: 37px;
+    width: 40px;
+  }
+  body .main-wrapper .rules-settings .accordion .card button {
+    font-size: 12px;
+    padding: 9px 8px 9px 8px;
+  }
+  .modal .modal-body {
+    padding: 0px;
+  }
+  .modal .modal-body svg {
+    transform: scale(0.8);
+  }
+}/*# sourceMappingURL=media.css.map */

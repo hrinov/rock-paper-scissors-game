@@ -1,0 +1,85 @@
+.rules-settings
+  margin-top: 75px
+  font-family: "Orbitron", cursive
+  margin-bottom: 50px
+  .accordion
+    border: solid 2px rgba(255, 255, 255, 0.5)
+    border-radius: 20px
+    box-shadow: -2px 2px 8px 2px rgba(2,0,36,0.4)
+    padding-top: 5px
+    padding-bottom: 5px
+    .card
+      background-color: transparent
+      border: unset
+      width: 350px
+      .card-header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border: unset
+      .card-body
+        margin: inherit
+        background-color: transparent
+        display: flex
+        justify-content: space-between
+      .ruby
+        height: 45px
+        width: 45px
+        opacity: 0.9
+        transition-duration: 400ms
+      button
+        font-size: 14px
+        height: 38px
+        padding: 7px 12px 9px 12px
+        border-radius: 5px
+        background-color: transparent
+        font-weight: 400
+        letter-spacing: 0rem
+      .result-settings
+        border: solid 1px rgb(13,202,240)
+        color: rgb(13,202,240)
+        &.active,
+        &.hover
+          background-color: rgba(13,202,240,0.95)
+          color: rgba(223, 236, 243)
+      .rules
+        border: solid 1px rgb(13,202,240),
+        color: rgb(13,202,240)
+        &.hover
+          background-color: rgba(13,202,240,0.95)
+          color: rgba(223, 236, 243)
+      .clear
+        border: solid 1px rgb(233 195 27)
+        color: rgb(233 195 27)
+        &.hover
+          background-color: rgb(233 195 27)
+          color: rgb(223 236 243)
+      .double-win
+        border: solid 1px rgb(3 196 138)
+        color: rgb(3 196 138)
+        &.active,
+        &.hover
+          background-color: rgb(3 196 138)
+          color: rgb(223 236 243)
+      .double-loss
+        border: solid 1px rgb(243 138 226)
+        color: rgb(243 138 226)
+        &.active,
+        &.hover
+          background-color: rgb(243 138 226)
+          color: rgb(223 236 243)
+.modal
+  .modal-dialog
+    opacity: 92%
+    .modal-content
+      background-color: #14162d
+    .modal-header
+      .modal-title
+        font-family: "Orbitron", cursive
+        color: #0dcaf0
+      .btn-close
+        background-color: #0dcaf0
+  .modal-body
+    svg
+      display: block
+      margin: 0 auto
