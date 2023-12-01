@@ -1,6 +1,5 @@
 {
   "name": "rock-paper-scissors-game",
-  "homepage": "https://ruslan-hrinov.github.io/rock-paper-scissors-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
